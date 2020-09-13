@@ -26,6 +26,8 @@ public class SetSkyBluePage {
 	@FindBy(how = How.XPATH, using = ("//span[@id = 'extra']/button[1]"))
 	WebElement SETSKYBLUE_BUTTON_LOCATOR;
 	
+	@FindBy(how = How.XPATH, using = "//div[@id = 'label-first']/b")
+	WebElement VALIDATE_SKYBLUE_BUTTON_LOCATER;
 	
 	// Methods to interact with the elements
 	
@@ -39,5 +41,17 @@ public class SetSkyBluePage {
 		SETSKYBLUE_BUTTON_LOCATOR.click();
 		
 	}
-
+	
+	public void validateBlueButton() {
+		VALIDATE_SKYBLUE_BUTTON_LOCATER.getText();
+	}
+	
+	/*
+	 * public String getPageTitle() { return driver.getTitle();
+	 * 
+	 * }
+	 */
+	 
+		
+	
 }

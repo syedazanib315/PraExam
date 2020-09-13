@@ -1,4 +1,4 @@
-@white
+@SmokeTest 
 Feature: White Background Change
 Scenario: White Background Change
 	Given Set SkyWhite Background button exists

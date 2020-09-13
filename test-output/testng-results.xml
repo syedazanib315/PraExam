@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="5716" started-at="2020-08-26T12:57:57 EDT" finished-at="2020-08-26T12:58:03 EDT">
+  <suite name="Default suite" duration-ms="8309" started-at="2020-09-10T20:06:13 EDT" finished-at="2020-09-10T20:06:22 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="5716" started-at="2020-08-26T12:57:57 EDT" finished-at="2020-08-26T12:58:03 EDT">
-      <class name="test.AddCategoryTest">
-        <test-method status="PASS" signature="addCategoryAndValidate()[pri:0, instance:test.AddCategoryTest@2d6eabae]" name="addCategoryAndValidate" duration-ms="5688" started-at="2020-08-26T12:57:57 EDT" finished-at="2020-08-26T12:58:03 EDT">
+    <test name="Default test" duration-ms="8309" started-at="2020-09-10T20:06:13 EDT" finished-at="2020-09-10T20:06:22 EDT">
+      <class name="test.CategoryAlreadyExistsTest">
+        <test-method status="PASS" signature="CategoryAlreadyExistsAndValidate()[pri:0, instance:test.CategoryAlreadyExistsTest@2d6eabae]" name="CategoryAlreadyExistsAndValidate" duration-ms="8238" started-at="2020-09-10T20:06:13 EDT" finished-at="2020-09-10T20:06:22 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addCategoryAndValidate -->
-      </class> <!-- test.AddCategoryTest -->
+        </test-method> <!-- CategoryAlreadyExistsAndValidate -->
+      </class> <!-- test.CategoryAlreadyExistsTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

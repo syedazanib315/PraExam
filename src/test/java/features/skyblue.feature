@@ -1,5 +1,5 @@
-@blue
-Feature: Sky Blue Background           
+@SmokeTest 
+Feature: Sky Blue Background         
 Scenario: Sky Blue Background
 	Given Set SkyBlue Background button exists
 	When I click on the button  

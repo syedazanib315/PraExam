@@ -25,6 +25,9 @@ WebDriver driver;
 	@FindBy(how = How.XPATH, using = ("//span[@id = 'extra']/button[2]"))
 	WebElement SETSKYWHITE_BUTTON_LOCATOR;
 	
+	@FindBy(how = How.XPATH, using = "//div[@id = 'label-first']/b")
+	WebElement VALIDATE_SKYWHITE_BUTTON_LOCATER;
+	
 	
 	// Methods to interact with the elements
 	
@@ -37,6 +40,10 @@ WebDriver driver;
 		BasePage.waitForElement(driver, 2, By.xpath("//span[@id = 'extra']/button[2]"));
 		SETSKYWHITE_BUTTON_LOCATOR.click();
 		
+	}
+	
+	public void validateWhiteButton() {
+		 VALIDATE_SKYWHITE_BUTTON_LOCATER.getText();
 	}
 
 }
